@@ -34,7 +34,7 @@ body {
     width: $size;
     height: $size;
     z-index: 9;
-    background-image: url(https://rafaelalucas91.github.io/assets/codepen/logo_white.svg);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/85/Circle-icons-chat.svg);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: 10px 7px;
@@ -62,25 +62,25 @@ body {
       border-radius: 100%;
     }
 
-    &.portfolio {
+    &.twitter {
       transition: all 0.8s ease;
 
       .icon {
-        background-image: url(https://rafaelalucas91.github.io/assets/codepen/link.svg);
+        background-image: url(https://upload.wikimedia.org/wikipedia/sco/9/9f/Twitter_bird_logo_2012.svg);
       }
     }
 
-    &.dribbble {
+    &.instagram {
       transition: all 0.3s ease;
       .icon {
-        background-image: url(https://rafaelalucas91.github.io/assets/codepen/dribbble.svg);
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg);
       }
     }
 
     &.linkedin {
       transition: all 0.8s ease;
       .icon {
-        background-image: url(https://rafaelalucas91.github.io/assets/codepen/linkedin.svg);
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c9/Linkedin.svg);
       }
     }
   }
@@ -110,7 +110,7 @@ body {
         }
       }
 
-      &.portfolio {
+      &.twitter {
         right: 0;
         bottom: calc(100% - 40px);
         transition: all 0.3s 0s $cubic;
@@ -121,7 +121,7 @@ body {
         }
       }
 
-      &.dribbble {
+      &.instagram {
         bottom: 45%;
         right: 45%;
         transition: all 0.3s 0.15s $cubic;
@@ -172,6 +172,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 767px) {
@@ -205,9 +206,9 @@ body {
 .card-fav {
   max-width: 300px;
   min-width: 200px;
-  height: 300px;
   height: 270px;
   width: 100%;
+  padding: 10px;
   min-width: 200px;
   background-color: #292929;
   border-radius: 10px;

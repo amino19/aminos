@@ -10,15 +10,16 @@
 .header-content {
   position: relative;
   display: flex;
-  height: 20rem;
+  margin-top: 15rem;
   align-items: center;
   justify-content: center;
 }
 
 .header-content h2 {
   color: #fff;
-  font-size: 6rem;
+  font-size: 3rem;
   position: absolute;
+  text-align: center;
 }
 
 .header-content h2:nth-child(1) {
@@ -29,6 +30,12 @@
 .header-content h2:nth-child(2) {
   color: #03a9f4;
   animation: animate 4s ease-in-out infinite;
+}
+
+h3{
+  color: #fff;
+  padding-top: 50px;
+  text-align: center;
 }
 
 @keyframes animate {
@@ -62,8 +69,11 @@
   }
 }
 
-// @media screen and (max-width: 767px) {
-// 	.wrapper {
-// 	   height: 700px;
-// 	}
-//  }
+@media screen and (max-width: 767px) {
+	.wrapper {
+	   height: 700px;
+	}
+  .header-content{
+    margin-bottom: 4rem;
+  }
+ }
