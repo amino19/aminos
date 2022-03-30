@@ -29,28 +29,36 @@ export default function About() {
 
       <div className="content-about">
         <div className="card-about">
-          <div className="icon">
-            <i className="material-icons md-36">face</i>
-          </div>
-          <p className="title">Profile</p>
-          <p className="text">Click here to know more about my journey</p> 
-          {/* polywork */}
+          <a href="https://www.polywork.com/aminos">
+            <div className="icon">
+              <i className="material-icons md-36">face</i>
+            </div>
+            <p className="title">Profile</p>
+            <p className="text">Click here to know more about my journey</p>
+            {/* polywork */}
+          </a>
         </div>
+
         <div className="card-fav">
-          <div className="icon">
-            <i className="material-icons md-36">favorite_border</i>
-          </div>
-          <p className="title">Projects</p>
-          <p className="text">Open Source projects showcased here</p>
-          {/* github */}
+          <a href="https://github.com/amino19">
+            <div className="icon">
+              <i className="material-icons md-36">favorite_border</i>
+            </div>
+            <p className="title">Projects</p>
+            <p className="text">Open Source projects showcased here</p>
+            {/* github */}
+          </a>
         </div>
+
         <div className="card-about">
-          <div className="icon">
-            <i className="material-icons md-36">alternate_email</i>
-          </div>
-          <p className="title">Contacts</p>
-          <p className="text">Feel free to book a time slot for 1:1 meeting</p>
-          {/* calendly */}
+          <a href="https://calendly.com/aminos">
+            <div className="icon">
+              <i className="material-icons md-36">alternate_email</i>
+            </div>
+            <p className="title">Contacts</p>
+            <p className="text">Schedule a time slot for 1:1 meeting</p>
+            {/* calendly */}
+          </a>
         </div>
       </div>
     </>
