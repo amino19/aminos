@@ -9,18 +9,24 @@ export default function About() {
         <a
           className="bg_links social twitter"
           href="https://www.twitter.com/aminoxix"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <span className="icon"></span>
         </a>
         <a
           className="bg_links social instagram"
           href="https://instagram.com/aminos.ly"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <span className="icon"></span>
         </a>
         <a
           className="bg_links social linkedin"
           href="https://www.linkedin.com/in/amino19"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <span className="icon"></span>
         </a>
@@ -29,7 +35,11 @@ export default function About() {
 
       <div className="content-about">
         <div className="card-about">
-          <a href="https://www.polywork.com/aminos">
+          <a
+            href="https://www.polywork.com/aminos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="icon">
               <i className="material-icons md-36">face</i>
             </div>
@@ -40,7 +50,11 @@ export default function About() {
         </div>
 
         <div className="card-fav">
-          <a href="https://github.com/amino19">
+          <a
+            href="https://github.com/amino19"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="icon">
               <i className="material-icons md-36">favorite_border</i>
             </div>
@@ -51,7 +65,11 @@ export default function About() {
         </div>
 
         <div className="card-about">
-          <a href="https://calendly.com/aminos">
+          <a
+            href="https://calendly.com/aminos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="icon">
               <i className="material-icons md-36">alternate_email</i>
             </div>
