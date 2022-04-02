@@ -16,7 +16,7 @@ export default function About() {
         </a>
         <a
           className="bg_links social instagram"
-          href="https://instagram.com/aminos.ly"
+          href="https://instagram.com/aminoxix.ly"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -24,7 +24,7 @@ export default function About() {
         </a>
         <a
           className="bg_links social linkedin"
-          href="https://www.linkedin.com/in/amino19"
+          href="https://www.linkedin.com/in/aminoxix"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -36,7 +36,7 @@ export default function About() {
       <div className="content-about">
         <div className="card-about">
           <a
-            href="https://www.polywork.com/aminos"
+            href="https://www.polywork.com/aminoxix"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -51,7 +51,7 @@ export default function About() {
 
         <div className="card-fav">
           <a
-            href="https://github.com/amino19"
+            href="https://github.com/amino19?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -66,7 +66,7 @@ export default function About() {
 
         <div className="card-about">
           <a
-            href="https://calendly.com/aminos"
+            href="https://calendly.com/aminoxix"
             target="_blank"
             rel="noopener noreferrer"
           >
