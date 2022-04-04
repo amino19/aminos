@@ -15,8 +15,8 @@ export default function About() {
           <span className="icon"></span>
         </a>
         <a
-          className="bg_links social instagram"
-          href="https://instagram.com/aminoxix.ly"
+          className="bg_links social medium"
+          href="https://medium.com/@aminoxix"
           target="_blank"
           rel="noopener noreferrer"
         >

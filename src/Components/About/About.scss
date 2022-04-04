@@ -76,10 +76,10 @@ body {
       }
     }
 
-    &.instagram {
+    &.medium {
       transition: all 0.3s ease;
       .icon {
-        background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg);
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/ec/Medium_logo_Monogram.svg);
       }
     }
 
@@ -127,7 +127,7 @@ body {
         }
       }
 
-      &.instagram {
+      &.medium {
         bottom: 45%;
         right: 45%;
         transition: all 0.3s 0.15s $cubic;
