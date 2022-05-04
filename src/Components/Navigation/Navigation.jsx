@@ -6,6 +6,7 @@ export default function Navigation() {
   return (
     <>
       <section className="navigation">
+        {/* brand header */}
         <div>
           <img
             className="brand-header"
@@ -14,6 +15,7 @@ export default function Navigation() {
           />
         </div>
         <div className="resume">
+          {/* resume button */}
           <a
             href={resumePdf}
             className="blue-btn"

@@ -51,7 +51,7 @@ export default function About() {
 
         <div className="card-fav">
           <a
-            href="https://github.com/amino19?tab=repositories"
+            href="https://github.com/aminoxix?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
           >
