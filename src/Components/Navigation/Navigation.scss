@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1524px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.brand-header {
+  width: 13%;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+.resume {
+  margin-top: 2rem;
+}
+
+.resume a{
+  text-decoration: none;
+  margin: 3rem 1rem;
+}
+
+.blue-btn {
+  border-color: #41a6ea;
+  color: #000000;
+  padding: 0.6rem;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px #41a6ea inset, 0 0 0 0 #41a6ea;
+  transition: all 150ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 10px 0 #41a6ea inset, 0 0 10px 4px #41a6ea;
+    color: #fff;
+  }
+}
+
+.blue-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.blue-btn span::after {
+  content: '\00bb';
+  color: #fff;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.blue-btn:hover span {
+  padding-right: 15px;
+}
+
+.blue-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    height: 700px;
+  }
+
+  .brand-header {
+    width: 50%;
+    margin-left: 5px;
+    margin-top: 1rem;
+  }
+
+  .resume {
+    margin-top: 0.6rem;
+  }
+
+  .resume a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+}
