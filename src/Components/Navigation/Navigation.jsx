@@ -10,7 +10,7 @@ export default function Navigation() {
         <div>
           <img
             className="brand-header"
-            src="https://raw.githubusercontent.com/amino19/amino19/main/icons/aminos-with-logo-horizon.png"
+            src= {require("./Assets/aminos-with-logo-horizon.png")}
             alt="logo"
           />
         </div>
